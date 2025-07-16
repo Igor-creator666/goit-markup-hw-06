@@ -32,36 +32,36 @@
               <a href="./index.html" class="nav-link">Studio</a>
             </li>
             <li>
-              <a href="" class="nav-link-second">Portfolio</a>
+              <a href="#" class="nav-link-second">Portfolio</a>
             </li>
             <li>
-              <a href="" class="nav-link-second">Contacts</a>
+              <a href="#" class="nav-link-second">Contacts</a>
             </li>
           </ul>
         </nav>
         <address class="address">
           <ul class="address-list">
             <li>
-              <a href="mailto:info@devstudio.com" class="mail"
+              <a href="mailto:info@devstudio.com" class="contact-link"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a href="tel:+110001111111" class="mail">
+              <a href="tel:+110001111111" class="contact-link">
                 +11 (000) 111-11-11</a>
             </li>
           </ul>
         </address>
         <button class="burger-btn" type="button">
           <svg class="burger-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-burder"></use>
+            <use href="./images/icons.svg#icon-burger"></use>
           </svg>
         </button>
       </div>
     </header>
-    <div class="mobile-menu hidden">
+    <div class="mobile-menu">
       <div class="container mobile-menu-container">
-        <button type="button" class="mobile-menu-close" data-menu-close>
+        <button type="button" class="mobile-menu-close" aria-label="Close modal" data-menu-close>
           <svg width="8" height="8" class="svg-button-close">
             <use href="./images/icons.svg#close"></use>
           </svg>
@@ -72,10 +72,10 @@
               <a href="./index.html" class="mobile-nav-link">Studio</a>
             </li>
             <li>
-              <a href="" class="mobile-nav-link-second">Portfolio</a>
+              <a href="#" class="mobile-nav-link-second">Portfolio</a>
             </li>
             <li>
-              <a href="" class="nav-link-second">Contacts</a>
+              <a href="#" class="mobile-nav-link-second">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -141,19 +141,20 @@
 
     <main>
       <!--first-->
-      <section class="hidden">
+      <section class="first">
         <div class="container">
           <h1 class="first-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="button">Order Service</button>
+          <button type="button" class="button-first">Order Service</button>
         </div>
       </section>
 
       <!--second-->
-      <section class="hidden">
+      <section class="second">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
+
           <ul class="second-ul">
-            <li class="second-li">
+            <li class="advantages-item">
               <div class="svg-container">
                 <svg class="icon" width="64" height="64">
                   <use href="./images/icons.svg#antenna"></use>
@@ -165,7 +166,7 @@
                 the perfect and creative solution.
               </p>
             </li>
-            <li class="second-li">
+            <li class="advantages-item">
               <div class="svg-container">
                 <svg class="icon" width="64" height="64">
                   <use href="./images/icons.svg#clock"></use>
@@ -177,7 +178,7 @@
                 within the shortest possible time.
               </p>
             </li>
-            <li class="second-li">
+            <li class="advantages-item">
               <div class="svg-container">
                 <svg class="icon" width="64" height="64">
                   <use href="./images/icons.svg#diagram"></use>
@@ -189,7 +190,7 @@
                 opportunities and minimize risk.
               </p>
             </li>
-            <li class="second-li">
+            <li class="advantages-item">
               <div class="svg-container">
                 <svg class="icon" width="64" height="64">
                   <use href="./images/icons.svg#astronaut"></use>
@@ -206,20 +207,20 @@
       </section>
 
       <!--third-->
-      <section class="hidden">
+      <section class="third">
         <div class="container">
           <h2 class="third-title">Our Team</h2>
           <ul class="third-team-list">
-            <li class="third-paragraph">
+            <li class="team-card">
               <img
                 src="./images/markguerrero.jpg"
-                alt="Mark Guerrero"
+                alt="Photo of Mark Guerrero"
                 width="264"
               />
-              <div class="third-name">
+              <div class="team-card-content">
                 <h3 class="team-title">Mark Guerrero</h3>
                 <p class="team-text">Product Designer</p>
-                <ul class="third-team-list">
+                <ul class="team-social-list">
                   <li class="icon-links">
                     <a
                       href="https://www.instagram.com/"
@@ -267,11 +268,11 @@
               </div>
             </li>
             <li class="third-paragraph">
-              <img src="./images/tomford.jpg" alt="Tom Ford" width="264" />
-              <div class="third-name">
+              <img src="./images/tomford.jpg" alt="Photo of Tom Ford" width="264" />
+              <div class="team-card-content">
                 <h3 class="team-title">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
-                <ul class="third-team-list">
+                <ul class="team-social-list">
                   <li class="icon-links">
                     <a
                       href="https://www.instagram.com/"
@@ -322,13 +323,13 @@
             <li class="third-paragraph">
               <img
                 src="./images/camilagarcia.jpg"
-                alt="Camila Garcia"
+                alt="Photo of Camila Garcia"
                 width="264"
               />
-              <div class="third-name">
+              <div class="team-card-content">
                 <h3 class="team-title">Camila Garcia</h3>
                 <p class="team-text">Marketing</p>
-                <ul class="third-team-list">
+                <ul class="team-social-list">
                   <li class="icon-links">
                     <a
                       href="https://www.instagram.com/"
@@ -378,13 +379,13 @@
             <li class="third-paragraph">
               <img
                 src="./images/danielwilson.jpg"
-                alt="Daniel Wilson"
+                alt="Photo of Daniel Wilson"
                 width="264"
               />
-              <div class="third-name">
+              <div class="team-card-content">
                 <h3 class="team-title">Daniel Wilson</h3>
                 <p class="team-text">UI Designer</p>
-                <ul class="third-team-list">
+                <ul class="team-social-list">
                   <li class="icon-links">
                     <a
                       href="https://www.instagram.com/"
@@ -437,7 +438,7 @@
       </section>
 
       <!--fourth-->
-      <section class="hidden">
+      <section class="fourth">
         <div class="container">
           <h2 class="fourth-title">Our Portfolio</h2>
           <ul class="fourth-ul">
@@ -552,7 +553,7 @@
 
     <!-- ← footer  -->
 
-    <footer class="hidden">
+    <footer class="footer">
       <div class="container container-footer">
         <div class="logo-container">
           <a href="./index.html" class="logo-footer">
@@ -574,7 +575,7 @@
               >
                 <svg width="24" height="24" class="svg-footer">
                   <use href="./images/icons.svg#instagram"></use>
-                </svg ></a>
+                </svg></a>
             </li>
             <li class="li-footer">
               <a
@@ -623,7 +624,7 @@
                 class="input-subscribe"
               />
             </label>
-            <button type="submit" class="button-subscribe">
+            <button type="submit" class="button-subscribe" aria-label="Subscribe">
               Subscribe
               <svg width="24" height="24" class="svg-subscribe">
                 <use href="./images/icons.svg#icon-send"></use>
@@ -635,9 +636,9 @@
     </footer>
     <!-- ← overlay -->
 
-    <div class="hidden" data-modal>
+    <div class="overlay" data-modal>
       <div class="modal">
-        <button type="button" data-modal-open class="close-btn-modal">
+        <button type="button" data-modal-close class="close-btn-modal">
           <svg width="8" height="8" class="svg-person">
             <use href="./images/icons.svg#close"></use>
           </svg>
@@ -736,7 +737,6 @@
           <button
             class="button-form-submit"
             type="submit"
-            aria-label="Close modal"
           >
             Send
           </button>

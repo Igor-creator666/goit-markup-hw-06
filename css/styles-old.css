@@ -143,14 +143,14 @@ color: #2e2f42; }
 
 
 
-.mail{font-size: 16px;
+.contact-link{font-size: 16px;
   transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.mail:hover{color: #404bbf;}
-.mail:focus{color: #404bbf;}
+.contact-link:hover{color: #404bbf;}
+.contact-link:focus{color: #404bbf;}
 
 
 /*------------first section--------*/
@@ -227,7 +227,6 @@ cursor: pointer;
 display: flex;
   align-items: center;
   justify-content: center;
-    
     padding: 24px 100px;
  width: 264px;
 height: 112px;
@@ -256,7 +255,7 @@ color: #434455;}
 .third{background-color: #F4F4FD;
 padding: 120px 0}
 
-.third-ul{display: flex;
+.third-team-list{display: flex;
   align-items: center;
   gap: 24px;
   margin: 0; padding-left: 0;
@@ -305,6 +304,12 @@ fill: #f4f4fd;
 
 .third-team-list{
   display: flex;
+  margin: 0; padding-left: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.team-social-list{display: flex;
   margin: 0; padding-left: 0;
   align-items: center;
   justify-content: center;
