@@ -52,16 +52,16 @@
             </li>
           </ul>
         </address>
-        <button class="burger-btn" type="button">
+        <button type="button" class="burger-btn"  data-mobile-open>
           <svg class="burger-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-burger"></use>
           </svg>
         </button>
       </div>
     </header>
-    <div class="mobile-menu">
+    <div class="mobile-menu" data-mobile>
       <div class="container mobile-menu-container">
-        <button type="button" class="mobile-menu-open" aria-label="Close modal" data-menu-open>
+        <button type="button" class="mobile-menu-close" aria-label="Close modal" data-mobile-close>
           <svg width="8" height="8" class="svg-button-open">
             <use href="./images/icons.svg#close"></use>
           </svg>
@@ -144,7 +144,7 @@
       <section class="first">
         <div class="container">
           <h1 class="first-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="button-first">Order Service</button>
+          <button type="button" class="button-first" data-modal-open>Order Service</button>
         </div>
       </section>
 
@@ -638,7 +638,7 @@
 
     <div class="overlay" data-modal>
       <div class="modal">
-        <button type="button" data-modal-open class="open-btn-modal">
+        <button type="button" class="open-btn-modal" data-modal-close >
           <svg width="8" height="8" class="svg-person">
             <use href="./images/icons.svg#close"></use>
           </svg>
