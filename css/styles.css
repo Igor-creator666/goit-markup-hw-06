@@ -153,7 +153,7 @@ section {
 .mobile-nav {
   margin-bottom: auto;
 }
-.mobile-menu-close {
+.mobile-menu-open {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -170,17 +170,17 @@ section {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mobile-menu-close:hover,
-.mobile-menu-close:focus {
+.mobile-menu-open:hover,
+.mobile-menu-open:focus {
   background-color: var(--ocean);
   border: none;
 }
 
-.mobile-menu-close:hover .svg-button-close,
-.mobile-menu-close:focus .svg-button-close {
+.mobile-menu-open:hover .svg-button-close,
+.mobile-menu-open:focus .svg-button-close {
   fill: var(--white);
 }
-.svg-button-close {
+.svg-button-open {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -681,6 +681,13 @@ border-radius: 4px;
  background-color: rgba(46, 47, 66, 0.4);
  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
  visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); }
+
+.overlay.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;}
+
+
  .modal{
   max-width: 320px;
   position: absolute;
