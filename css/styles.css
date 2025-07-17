@@ -390,6 +390,9 @@ color: var(--slate);
   width: 100%;
   text-align: center;
 }
+.second-title{font-weight: 700;
+font-size: 36px;
+}
 
 /**** third ***/
 .third {
