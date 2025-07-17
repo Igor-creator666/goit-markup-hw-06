@@ -1,18 +1,19 @@
-(() => {
+document.addEventListener('DOMContentLoaded', () => {
   const refs = {
-    // Додати атрибут data-mobile-open на кнопку відкриття
     openModalBtn: document.querySelector('[data-mobile-open]'),
-    // Додати атрибут data-mobile-close на кнопку закриття
     closeModalBtn: document.querySelector('[data-mobile-close]'),
-    // Додати атрибут data-mobile на бекдроп модалки
     modal: document.querySelector('[data-mobile]'),
   };
+
+  if (!refs.openModalBtn || !refs.closeModalBtn || !refs.modal) {
+    console.error('Не всі елементи знайдені');
+    return;
+  }
 
   refs.openModalBtn.addEventListener('click', toggleModal);
   refs.closeModalBtn.addEventListener('click', toggleModal);
 
   function toggleModal() {
-    // is-open це клас який буде додаватися/забиратися на бекдроп при натисканні на кнопки
     refs.modal.classList.toggle('is-open');
   }
-})();
+});
