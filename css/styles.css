@@ -393,6 +393,11 @@ color: var(--slate);
 .second-title{font-weight: 700;
 font-size: 36px;
 }
+.second-text {font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate);}
 
 /**** third ***/
 .third {
